@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataleaf - Empowering Your Text</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <section class="nav">
+        <div class="logo">
+            <a href="../LANDING-PAGE/index.html"><img src="../Resources/LOGO/DATALEAF_LOGO.jpeg" alt="Dataleaf Logo" class="Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../PDF-SUMMARIZER/index.html">PDF Summarizer</a></li>
+                <li><a href="../Grammar-Corrector/index.html">Grammar Corrector</a></li>
+                <li><a href="../Sentiment-Analysis/index.html">Sentiment Analysis</a></li>
+                <li><a href="#">FAQ's</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="login-btn">Login</a>
+            <a href="../SignUp-Page/index.html" class="signup-btnn">Sign Up</a>
+        </div>
+    </section>
+
+    <!-- Login Form Section -->
+<section class="form-section">
+    <div class="login-container">
+        <h1>Login</h1>
+        <span class="sub-heading">Login To Your Existing Account</span>
+        <div class="empty-space"></div>
+        <!-- Begin Form -->
+        <form action="YOUR_BACKEND_ENDPOINT" method="POST">
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <span class="toggle-password">👁️</span>
+            </div>
+
+            <a href="#" class="forgot-password">Forgot Password?</a>
+
+            <button type="submit" class="login-btnn">Login in</button>
+            <div class="signup-link">
+                Do Not Have An Account? <a href="#">Sign Up</a>
+            </div>
+        </form>
+        <!-- End Form -->
+
+        <div class="divider">
+                <hr /><span>or</span>
+                <hr />
+            </div>
+
+        <div class="google-btn">
+            <img src="../Resources/ICONS/google-login.jpeg" alt="Sign in with Google">
+        </div>
+    </div>
+</section>
+</body>
+
+</html>
